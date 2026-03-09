@@ -151,7 +151,7 @@ uvicorn app.main:app --reload
 ## Open the API Documentation
 
 Once the server starts, open your browser and navigate to:
-```bash
+```text
 http://127.0.0.1:8000/docs
 ```
 This will open the interactive **Swagger API interface** where you can test the summarization API.
@@ -159,7 +159,7 @@ This will open the interactive **Swagger API interface** where you can test the 
 ## Example API Request
 
 ### Endpoint
-```bash
+```text
 POST /api/summarize
 ```
 
@@ -182,7 +182,7 @@ POST /api/summarize
 
 ---
 ## Project Structure
-```
+```text
 biosum-reliable
 │
 ├── app
@@ -190,6 +190,13 @@ biosum-reliable
 │   ├── services
 │   ├── templates
 │   └── static
+│
+├── docs
+│   ├── demo.gif
+│   ├── interface.png
+│   ├── output1.png
+│   ├── output2.png
+│   └── output3.png
 │
 ├── tests
 ├── requirements.txt
@@ -199,6 +206,7 @@ biosum-reliable
 ```
 ---
 ## Model Training
+Note: Model weights are excluded from the repository due to GitHub file size limits. The model can be reproduced using the training script above.
 
 The abstractive summarization component was trained using a **transformer-based model** on biomedical research literature.
 
@@ -274,8 +282,7 @@ The system processes biomedical research articles through the following stages:
 
 ### Summarization Pipeline
 
-(image)
-```
+```text
 Biomedical Text
         │
         ▼
