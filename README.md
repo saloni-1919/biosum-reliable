@@ -12,6 +12,7 @@ BioSum Reliable is an intelligent biomedical NLP system that converts complex re
 ---
 
 ## Demo
+Watch the Video!
 <p align="center">
   <img src="docs/demo.gif" width="900">
 </p>
@@ -330,8 +331,9 @@ This multi-stage architecture ensures both **interpretability** and **high-quali
 
 ---
 ## License
+This project is licensed under the **MIT License**.
 
-This project is released under the MIT License.
+See the [LICENSE](LICENSE) file for details.
 ---
 ## Author
 
