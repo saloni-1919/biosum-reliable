@@ -186,10 +186,11 @@ POST /api/summarize
 biosum-reliable
 │
 ├── app
-│   ├── main.py
+│   ├── api
+│   ├── core
+│   ├── ml
 │   ├── services
-│   ├── templates
-│   └── static
+│   └── main.py
 │
 ├── docs
 │   ├── demo.gif
@@ -199,9 +200,11 @@ biosum-reliable
 │   └── output3.png
 │
 ├── tests
-├── requirements.txt
+├── LICENSE
 ├── Dockerfile
+├── Procfile
 ├── pyproject.toml
+├── requirements.txt
 └── README.md
 ```
 ---
