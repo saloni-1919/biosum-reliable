@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ app_name }}</title>
+  <link rel="icon" type="image/png" href="/static/favicon.png">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>{{ app_name }}</h1>
+      <p>Reliable biomedical text summarization with evidence-backed extractive NLP.</p>
+    </section>
+
+    <section class="card input-card">
+      <label for="textInput">Paste biomedical text</label>
+      <textarea id="textInput" placeholder="Paste a biomedical abstract, clinical note, or paper section here..."></textarea>
+
+      <div class="controls">
+        <div>
+          <label for="targetSentences">Summary sentences</label>
+          <input id="targetSentences" type="number" min="3" max="12" value="6">
+        </div>
+        <div class="checkbox-wrap">
+          <input id="abstractive" type="checkbox">
+          <label for="abstractive">Try abstractive mode</label>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="summarizeBtn">Summarize</button>
+        <button id="sampleBtn" class="secondary">Load sample</button>
+      </div>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Final Summary</h2>
+        <div id="finalSummary" class="result-block muted">No summary yet.</div>
+      </article>
+
+      <article class="card">
+        <h2>Structured Output</h2>
+        <div id="structuredSummary" class="result-block muted">No structured output yet.</div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Evidence</h2>
+        <div id="evidenceList" class="result-block muted">No evidence yet.</div>
+      </article>
+
+      <article class="card">
+        <h2>Key Entities</h2>
+        <div id="entityList" class="result-block muted">No entities yet.</div>
+      </article>
+    </section>
+  </main>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
