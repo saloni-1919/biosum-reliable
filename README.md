@@ -4,6 +4,7 @@
 ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20HuggingFace-Live%20Demo-yellow)](https://huggingface.co/spaces/saloni-1919/biosum-reliable)
 
 An AI-powered biomedical text summarization system that produces structured, evidence-backed insights from research literature.
 
@@ -12,7 +13,14 @@ BioSum Reliable is an intelligent biomedical NLP system that converts complex re
 ---
 
 ## Demo
-Watch the Video!
+
+🚀 Live Demo
+👉 https://huggingface.co/spaces/saloni-1919/biosum-reliable 
+
+OR 
+
+Watch the Video! 
+
 <p align="center">
   <img src="docs/demo.gif" width="900">
 </p>
